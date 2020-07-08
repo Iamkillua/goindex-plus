@@ -1,6 +1,6 @@
 ![GoIndex](https://raw.githubusercontent.com/ceecx/goindex-plus/master/themes/logo.png)  
 
-GoIndex+
+GoIndex Plus
 ====  
 
 基于 [原版](https://github.com/donwa/goindex) 和 [yanzai/goindex](https://github.com/yanzai/goindex) 修改而来，为自己所需做了调整。
@@ -14,9 +14,10 @@ Demo: https://dl.cee.cx
 
 ## 更新日志
 
-### 2020-07-08
+### 1.0.1 (2020-07-08)
 
-- 保留 yanzai/goindex 功能，并替换所有静态文件为国内 CDN。
+- 修改所有静态文件为 jsDelivr CDN 加快国内访问速度。
+- 修改默认主题颜色为白色。
   
 
 ---
