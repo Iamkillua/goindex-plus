@@ -1,5 +1,5 @@
 const authConfig = {
-  "siteName": "GoIndex", // 网站名称
+  "siteName": "GoIndex Plus", // 网站名称
   "version": "C1.0.1", // 程序版本。用户不要手动修改
   /*"client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",*/
