@@ -3,28 +3,28 @@
 GoIndex Plus
 ====  
 
-基于 [原版](https://github.com/donwa/goindex) 和 [yanzai/goindex](https://github.com/yanzai/goindex) 修改而来，为自己所需做了调整。
+Modified based on [original](https://github.com/donwa/goindex) and [yanzai/goindex](https://github.com/yanzai/goindex), adjusted for your needs.
 
-复制 `index.js` 代码到 Cloudflare Workers 并修改自己的信息进行部署。
+Copy the `index.js` code to Cloudflare Workers and modify your information for deployment.
 
-## 预览
+## Preview
 
 Demo: https://dl.cee.cx
 
 
-## 更新日志
+## Update log
 
 ### 1.0.1 (2020-07-08)
 
-- 修改所有静态文件为 jsDelivr CDN 加快国内访问速度。
-- 修改默认主题颜色为白色。
+-Modify all static files to jsDelivr CDN to speed up domestic access.
+-Modify the default theme color to white.
   
 
 ---
 
 
 
-> **安装部署可以参考原版，以下摘自原版 GoIndex 的部署说明：**
+> **For installation and deployment, please refer to the original version, the following is taken from the deployment instructions of the original version of GoIndex:**
 
 
 
@@ -48,4 +48,4 @@ classic: [https://indexc.gd.workers.dev/](https://indexc.gd.workers.dev/)
 
 
 ## About  
-Cloudflare Workers allow you to write JavaScript which runs on all of Cloudflare's 150+ global data centers.  
+Cloudflare Workers allows you to write JavaScript Code which runs on all of Cloudflare's 150+ global data centers.  
