@@ -25,22 +25,7 @@ const authConfig = {
       id: "root",
       name: "Main Hard Disk"
     },
-    {
-      id: "drive_id",
-      name: "To be added",
-      user: 'user',
-      pass: "cee.cx",
-      protect_file_link: false
-    },
-    {
-      id: "folder_id",
-      name: "Folder",
-      // Only set the password, set only the user name, and set the user name and password at the same time, all are possible
-      user: '',
-      pass: "cee.cx",
-      protect_file_link: false
-    }
-  ],
+    ],
   /**
    * The number displayed on each page of the file list page. [The recommended setting is between 100 and 1000];
    * If the setting is greater than 1000, it will cause an error when requesting drive api;
@@ -71,7 +56,7 @@ const authConfig = {
 const uiConfig = {
   // This version only supports material
   "theme": "material", // DO NOT set it to classic
-  "dark_mode": false, // night mode
+  "dark_mode": true, // night mode
   "main_color": "", // Color code reference Material
   "accent_color": "blue",
   /*"main_color": "light-green",
@@ -129,7 +114,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/ceecx/goindex-plus@${authConfig.version}/themes/${uiConfig.theme}/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/Iamkillua/goindex-plus@${authConfig.version}/themes/${uiConfig.theme}/app.js"></script>
   <script src="//cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
 </head>
 <body>
